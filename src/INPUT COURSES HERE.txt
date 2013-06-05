@@ -1,0 +1,203 @@
+*****************************************************************************************************************************************
+**Use this text to Set Which courses you want to check for Availability.
+******************************************************************************************************************************************
+**READ INSTRUCTIONS ON THIS TEXT CAREFULLY. FAILURE TO FOLLOW INSTRUCTIONS
+**COULD LEAD TO THE PROGRAM NOT WORKING PROPERLY.
+*****************************************************************************************************************************************
+**WRITE OUT THE COURSES YOU WANT TO RECEIVE ALERTS FOR IN THE PROPER FORMAT
+**PROPER FORMAT IS AS FOLLOWS	COURSE_DEPARTMENT_ABBREVIATION:COURSE_NUMBER:SEMESTER
+**FOR EXAMPLE	>CS:125:FA2013,CLCV:115:FA2013,PHYS:214:FA2013
+**PLEASE MAKE SURE THAT YOU WRITE THE SEMESTER WITH FA OR SP TO INDICATE FALL OR SPRING
+**SEMESTER FOLLOWED BY THE YEAR THE SEMESTER WILL BE IN.
+**SEPERATE COURSES WITH A SINGLE COMMA. USE THE LIST OF COURSE DEPARTMENTS BELOW TO FIND PROPER COURSE DEPARTMENT ABBREVIATIONS
+**DO NOT DELETE THE ">"
+**----------------------------------WRITE COURSES IN THE PROPER FORMAT ON THE LINE DIRECTLY BELOW----------------------------------------
+>
+*****************************************************************************************************************************************
+**Asian American Studies:AAS
+**Agricultural and Biological Engineering:ABE
+**Accountancy:ACCY
+**Agricultural and Consumer Economics:ACE
+**Agricultural, Consumer and Environmental Sciences:ACES
+**Advertising:ADV
+**Aerospace Engineering:AE
+**Air Force Aerospace Studies:AFAS
+**African American Studies:AFRO
+**African Studies:AFST
+**Agricultural Communications:AGCM
+**Agricultural Education:AGED
+**Applied Health Sciences Courses:AHS
+**American Indian Studies:AIS
+**Animal Sciences:ANSC
+**Anthropology:ANTH
+**Arabic:ARAB
+**Architecture:ARCH
+**Art:ART
+**rt--Design:ARTD
+**Art--Education:ARTE
+**Art--Foundation:ARTF
+**Art--History:ARTH
+**Art--Studio:ARTS
+**Asian Studies:ASST
+**Astronomy:ASTR
+**Atmospheric Sciences:ATMS
+**Aviation:AVI
+**Business Administration:BADM
+**Basque:BASQ
+**Biochemistry:BIOC
+**Bioengineering:BIOE
+**Biology:BIOL
+**Biophysics:BIOP
+**Bamana:BMNA
+**Business and Technical Writing:BTW
+**Bulgarian:BULG
+**Business:BUS
+**Center for Advanced Study:CAS
+**Catalan:CATL
+**Comparative Biosciences:CB
+**Cell and Developmental Biology:CDB
+**Civil and Environmental Engineering:CEE
+**Chemical and Biomolecular Engineering:CHBE
+**Chemistry:CHEM
+**Chinese:CHIN
+**Community Health:CHLH
+**Campus Honors Program Courses:CHP
+**Curriculum and Instruction:CI
+**Committee on Inst Cooperation:CIC
+**Classical Civilization:CLCV
+**Communication:CMN
+**Crop Sciences:CPSC
+**Computer Science:CS
+**Computational Science and Engineering:CSE
+**Creative Writing:CW
+**Comparative and World Literature:CWL
+**Czech:CZCH
+**Dance:DANC
+**East Asian Language and Culture:EALC
+**Electrical and Computer Engineering:ECE
+**Economics:ECON
+**Educational Practice:EDPR
+**Education:EDUC
+**English as an International Language:EIL
+**Engineering:ENG
+**Engineering Honors:ENGH
+**English:ENGL
+**Environmental Sustainability:ENSU
+**Entomology:ENT
+**Environmental Studies:ENVS
+**Educational Organization and Leadership:EOL
+**Educational Policy Studies:EPS
+**Educational Psychology:EPSY
+**Earth, Society, and Environment:ESE
+**English as a Second Language:ESL
+**European Union Studies:EURO
+**Fine and Applied Arts:FAA
+**Finance:FIN
+**French:FR
+**Food Science and Human Nutrition:FSHN
+**Graduate College:GC
+**General Engineering:GE
+**Geography:GEOG
+**Geology:GEOL
+**German:GER
+**Global Studies:GLBL
+**Germanic:GMC
+**Greek:GRK
+**Modern Greek:GRKM
+**General Studies:GS
+**Gender and Women's Studies:GWS
+**Human and Community Development:HCD
+**Human Dimensions of Environmental Systems:HDES
+**Human Development and Family Studies:HDFS
+**Hebrew, Modern and Classical:HEBR
+**History:HIST
+**Hindi:HNDI
+**Horticulture:HORT
+**Human Resource Education:HRE
+**Humanities Courses:HUM
+**Integrative Biology:IB
+**Industrial Engineering:IE
+**i-Health Program:IHLT
+**Informatics:INFO
+**Italian:ITAL
+**Japanese:JAPN
+**Journalism:JOUR
+**Jewish Studies:JS
+**Kinesiology:KIN
+**Korean:KOR
+**Landscape Architecture:LA
+**Liberal Arts and Sciences:LAS
+**Latin American and Caribbean Studies:LAST
+**Latin:LAT
+**Law:LAW
+**Labor and Employment Relations:LER
+**Lingala:LGLA
+**Linguistics:LING
+**Library and Information Science:LIS
+**Latina/Latino Studies:LLS
+**Media and Cinema Studies:MACS
+**Mathematics:MATH
+**Regular MBA Program Administration:MBA
+**Molecular and Cell Biology:MCB
+**Media:MDIA
+**Medieval Studies:MDVL
+**Mechanical Engineering:ME
+**Microbiology:MICR
+**Military Science:MILS
+**Molecular and Integrative Physiology:MIP
+**Materials Science and Engineering:MSE
+**Medical Scholars Program:MSP
+**Music:MUS
+**Museum Studies:MUSE
+**Neuroscience:NEUR
+**Nuclear, Plasma, and Radiological Engineering:NPRE
+**Natural Resources and Environmental Sciences:NRES
+**Naval Science:NS
+**Nutritional Sciences:NUTR
+**Pathobiology:PATH
+**Plant Biology:PBIO
+**Persian:PERS
+**Philosophy:PHIL
+**Physics:PHYS
+**Plant Pathology:PLPA
+**Polish:POL
+**Portuguese:PORT
+**Political Science:PS
+**Professional Science Master's Program:PSM
+**Psychology:PSYC
+**Russian, East European and Eurasian Studies:REES
+**Rehabilitation Counseling:REHB
+**Rhetoric and Composition:RHET
+**Religious Studies:RLST
+**Romance Linguistics:RMLG
+**Rural Sociology:RSOC
+**Recreation, Sport, and Tourism:RST
+**Russian:RUSS
+**South Asian and Middle Eastern Studies:SAME
+**Scandinavian:SCAN
+**Serbo-Croatian:SCR
+**Speech and Hearing Science:SHS
+**Slavic:SLAV
+**Second Language Studies:SLS
+**Sanskrit:SNSK
+**Sociology:SOC
+**Social Work:SOCW
+**Spanish:SPAN
+**Special Education:SPED
+**Statistics:STAT
+**Swahili:SWAH
+**Theoretical and Applied Mechanics:TAM
+**Technology Entrepreneurship:TE
+**Theatre:THEA
+**Technology and Management Courses:TMGT
+**Translation Studies:TRST
+**Technical Systems Management:TSM
+**Turkish:TURK
+**Ukrainian:UKR
+**Urban and Regional Planning:UP
+**Veterinary Clinical Medicine:VCM
+**Veterinary Medicine Courses:VM
+**Wolof:WLOF
+**Writing Studies:WRIT
+**Yiddish:YDSH
+**Zulu:ZULU
