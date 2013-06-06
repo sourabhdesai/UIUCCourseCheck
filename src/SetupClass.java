@@ -1,6 +1,10 @@
 import java.awt.Dimension;
 import java.awt.Image;
 import java.awt.Toolkit;
+import java.io.File;
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.util.ArrayList;
 
 
 public class SetupClass {
@@ -142,8 +146,30 @@ public class SetupClass {
 		return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 	}//END OF METHOD---------------------------------------------------------------------------------------------------------------
 	
+	public  static void restartApplication() throws URISyntaxException, IOException
+	{
+	  final String javaBin = System.getProperty("java.home") + File.separator + "bin" + File.separator + "java";
+	  final File currentJar = new File(SetupClass.class.getProtectionDomain().getCodeSource().getLocation().toURI());
+
+	  /* is it a jar file? */
+	  if(!currentJar.getName().endsWith(".jar"))	{
+		 System.out.println("Not a jar");
+		 return;
+	  }
+
+	  /* Build command: java -jar application.jar */
+	  final ArrayList<String> command = new ArrayList<String>();
+	  command.add(javaBin);
+	  command.add("-jar");
+	  command.add(currentJar.getPath());
+
+	  final ProcessBuilder builder = new ProcessBuilder(command);
+	  builder.start();
+	  System.exit(0);
+	}
+	
 	class UpdateThread extends Thread	{
-		private static final long updateTime=5*(60*1000)/2;
+		private static final long updateTime=5*(60*1000);
 		long currentTime;
 		boolean isRunning=true;
 		
@@ -152,9 +178,18 @@ public class SetupClass {
 			long timeForUpdate=this.currentTime+updateTime;
 			while(timeForUpdate>System.currentTimeMillis())	{
 				if(!isRunning) return;
-				//System.out.println("hi");
+				System.out.println("Waiting till update");
 			}
-			SetupClass.main(null);
+			try {
+				System.out.println("Restarting");
+				SetupClass.restartApplication();
+			} catch (URISyntaxException e) {
+				// TODO Auto-generated catch block
+				System.out.println("URISyntaxException");
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				System.out.println("IOException");
+			}
 			return;
 		}
 		
