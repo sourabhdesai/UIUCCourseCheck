@@ -79,7 +79,7 @@ public class SetupClass {
 	}
 	
 	public static Course[] getCoursesFromTxt()	{
-		TextIO.readFile("saved_data_inputs/INPUT COURSES HERE.txt");
+		TextIO.readFile("saved_data_inputs/INPUT COURSES HERE.txt"); //make it "saved_data_inputs/INPUT COURSES HERE.txt"  before exporting
 		String line="**";
 		while(line.charAt(0)=='*') {
 			line=TextIO.getln();
@@ -98,7 +98,10 @@ public class SetupClass {
 	}
 	
 	public static void classZoomInSetup()	{
+		SetupClass.UpdateThread updater=new SetupClass().new UpdateThread();
+		updater.start();
 		Zen.waitForClick();
+		updater.stopRun();
 		int x=Zen.getMouseClickX();
 		int columnWidth=Zen.getZenWidth()/numOfCourses;
 		int index=x/columnWidth;
@@ -139,6 +142,26 @@ public class SetupClass {
 		return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 	}//END OF METHOD---------------------------------------------------------------------------------------------------------------
 	
-	
+	class UpdateThread extends Thread	{
+		private static final long updateTime=5*(60*1000)/2;
+		long currentTime;
+		boolean isRunning=true;
+		
+		public void run()	{
+			currentTime=System.currentTimeMillis();
+			long timeForUpdate=this.currentTime+updateTime;
+			while(timeForUpdate>System.currentTimeMillis())	{
+				if(!isRunning) return;
+				//System.out.println("hi");
+			}
+			SetupClass.main(null);
+			return;
+		}
+		
+		public void stopRun()	{
+			isRunning=false;
+		}
+		
+	}
 
 }
